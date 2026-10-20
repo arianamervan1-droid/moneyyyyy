@@ -2,9 +2,12 @@
   "_note": "Owner shorthand for matching pictures to pages. Say 'blond' or 'black hair' and the pipeline picks the page and voice.",
   "blond": {
     "persona": "Bri",
-    "role": "AI character aimed at men (owner's description)",
-    "pages": [],
-    "pipeline": "EXCLUDED: not automated or captioned by this pipeline unless clearly disclosed as AI"
+    "role": "Openly-AI character; clothed suggestive-not-explicit content that points to the owner's Fanvue",
+    "pages": [
+      "biz_ig_briannaxx"
+    ],
+    "ai_label": "required on every post",
+    "rules": "Bio states she is AI. Captions never present her as a real woman. No nudity or explicit content."
   },
   "black_hair": {
     "persona": "Luna",

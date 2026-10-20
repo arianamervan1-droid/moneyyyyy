@@ -13,10 +13,11 @@
     "biz_ig_briannaxx": {
       "handle": "briannaxx_01",
       "owner": "business",
-      "mode": "off",
+      "mode": "auto_pipeline",
       "via": "metricool",
       "status": "NOT CONNECTED",
-      "todo": "Excluded from the pipeline (see personas.json)"
+      "todo": "Not connected yet. Add as a Metricool brand, then it can post. Every post must set instagramData.isAiGenerated=true",
+      "ai_label": "required"
     },
     "biz_fb_page": {
       "handle": "Facebook page 61592065590420",

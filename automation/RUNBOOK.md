@@ -26,3 +26,6 @@ Goal: one queue, many channels, every post tagged so we can see which ones make 
 - Instagram/TikTok need real media; if none exists, skip that channel, do not post text-only.
 - AI-influencer pages (lunaxxfit, briannaxx_01, Lily Bri): do NOT set the platform AI label (`isAiGenerated` / `isAigc`) until the owner says when and how (owner decision 2026-10-20, tied to the brand story). Until then, never claim credentials, real results or testimonials, and publish only text and graphics on these pages, not AI-generated people or video. The owner will lift that when giving the labeling go-ahead.
 - Max 1-2 posts per channel per day. Pause everything and tell the owner if a post fails twice.
+
+## Bri (briannaxx_01)
+- Owner approved 2026-10-20 with the AI label ON for every Bri post (`isAiGenerated: true` on Instagram, `isAigc` on TikTok). Her bio must say she is AI. Captions never claim she is a real woman. Clothed, non-explicit only. Never strip metadata or try to avoid platform AI detection.
