@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "twitter-stashly": {
+      "command": "npx",
+      "args": ["-y", "@enescinr/twitter-mcp"],
+      "env": {
+        "TWITTER_APP_KEY": "${TWITTER_APP_KEY}",
+        "TWITTER_APP_SECRET": "${TWITTER_APP_SECRET}",
+        "TWITTER_ACCESS_TOKEN": "${TWITTER_ACCESS_TOKEN}",
+        "TWITTER_ACCESS_SECRET": "${TWITTER_ACCESS_SECRET}"
+      }
+    }
+  }
+}
