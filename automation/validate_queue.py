@@ -4,7 +4,7 @@ import json, re, sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-LIMITS = {"x": 280, "instagram": 2200, "facebook": 63206, "tiktok": 2200}
+LIMITS = {"x": 280, "ig": 2200, "fb": 63206, "tt": 2200}
 BANNED = re.compile(r"\b(lose \d+|guarantee[ds]?|results? guaranteed|cure|testimonial)\b", re.I)
 
 channels = json.loads((HERE / "channels.json").read_text())["channels"]
@@ -16,12 +16,14 @@ for p in posts:
         if ch not in channels:
             errors.append(f"{p['id']}: unknown channel {ch}")
             continue
+        if channels[ch].get("mode") != "auto_pipeline":
+            errors.append(f"{p['id']}: {ch} is not an auto_pipeline channel (personal and unknown accounts are posted together, never by the pipeline)")
         if channels[ch].get("status") != "connected":
             errors.append(f"{p['id']}: {ch} is not connected")
         text = p["text"].get(ch, p["text"]["default"])
-        if p.get("link") and ch.startswith("x_"):
+        if p.get("link") and ch.split("_")[1] == "x":
             text += " " + "x" * 23  # X counts every URL as 23 chars
-        net = next((n for n in LIMITS if n in ch), None)
+        net = ch.split("_")[1] if ch.count("_") >= 2 else None
         if net and len(text) > LIMITS[net]:
             errors.append(f"{p['id']}: {ch} text is {len(text)} chars (limit {LIMITS[net]})")
         if BANNED.search(text):

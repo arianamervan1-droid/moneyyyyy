@@ -1,13 +1,29 @@
 {
-  "_note": "Source of truth for where posts can go. 'status' reflects what was verified live on 2026-10-20.",
+  "_note": "Source of truth for where posts can go. 'status' = verified live on 2026-10-20. 'mode': auto_pipeline = this repo drafts/schedules; together = personal, only posted in the daily sit-down with the owner (never by the pipeline).",
+  "mode": "draft_for_approval",
   "channels": {
-    "business_instagram":  {"handle": "lunaxxfit_",        "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
-    "business_facebook":   {"handle": "Sweat Cult page (1140750909130670)", "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
-    "business_tiktok":     {"handle": "stashly_1",         "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
-    "tiktok_luna":         {"handle": "tiktok-luna",       "via": "higgsfield", "connector_id": "041f3099-cd51-4ff1-87f1-082a54315111", "status": "connected", "owner": "UNASSIGNED"},
-    "x_daprincessa23":     {"handle": "@daprincessa23",    "via": "chat33", "account_id": "cmvev1eqn00011nro9kp22qqb", "status": "connected", "owner": "UNASSIGNED"},
-    "personal_accounts":   {"status": "NOT CONNECTED", "todo": "Connect personal IG/FB/TikTok/LinkedIn in Metricool as extra brands, or at https://chat33.io/channels"},
-    "content_pages":       {"status": "NOT CONNECTED", "todo": "Connect each content page as its own Metricool brand so voice and links stay separate"}
+    "biz_ig_lunaxxfit":   {"handle": "lunaxxfit_",    "owner": "business", "mode": "auto_pipeline", "via": "metricool", "brand_id": 6596743, "status": "connected"},
+    "biz_ig_briannaxx":   {"handle": "briannaxx_01",  "owner": "business", "mode": "auto_pipeline", "via": "metricool", "status": "NOT CONNECTED", "todo": "AI influencer. Add as a second Metricool brand"},
+    "biz_fb_page":        {"handle": "Facebook page 61592065590420", "owner": "business", "mode": "auto_pipeline", "via": "metricool", "brand_id": 6596743, "status": "connected", "todo": "Metricool lists page id 1140750909130670; confirm it is the same page"},
+    "biz_tt_stashly":     {"handle": "stashly_1",     "owner": "business", "mode": "auto_pipeline", "via": "metricool", "brand_id": 6596743, "status": "connected", "todo": "Metricool returned no TikTok analytics; check it has data"},
+    "biz_tt_lunaxxfit":   {"handle": "lunaxxfit",     "owner": "business", "mode": "auto_pipeline", "via": "higgsfield", "connector_id": "041f3099-cd51-4ff1-87f1-082a54315111", "status": "connected", "todo": "Higgsfield connector is named tiktok-luna; confirm it is @lunaxxfit"},
+    "biz_x_automationnorth": {"handle": "automationnorth", "owner": "business", "mode": "auto_pipeline", "via": "chat33", "status": "NOT CONNECTED", "todo": "Chat33 currently has @daprincessa23 connected instead"},
+    "unknown_x_daprincessa23": {"handle": "daprincessa23", "owner": "UNKNOWN", "mode": "off", "via": "chat33", "account_id": "cmvev1eqn00011nro9kp22qqb", "status": "connected", "todo": "Not in your account list. Confirm whose it is or disconnect"},
+
+    "personal_ig_shawtybee_arii": {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_ig_thatz_arii_":    {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_ig_puxmpwit_arii":  {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_fb_ariana.mervan":  {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_fb_profile_61593912144674": {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_x_shawtybee_arii":  {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_tt_shawtybee_arii": {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_tt_thatz_arii":     {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_tt_puxmpwit_arii":  {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_youtube_shawtybee_arii": {"owner": "personal", "mode": "together", "status": "not connected"},
+    "personal_snapchat":          {"owner": "personal", "mode": "together", "status": "not connected"}
   },
-  "mode": "draft_for_approval"
+  "websites": {
+    "sweatcult.shop": "Sweat Cult storefront (Lovable + Stripe, digital products). Live funnel data via Lovable DB.",
+    "stashly.org": "Stashly. Not yet analysed: unreachable from this sandbox (DNS). Need its pitch and offer from the owner or a Lovable/Shopify connection."
+  }
 }

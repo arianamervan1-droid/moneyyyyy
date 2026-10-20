@@ -3,10 +3,10 @@
     {
       "id": "d02_education",
       "status": "draft",
-      "channels": ["business_facebook", "business_instagram", "x_daprincessa23"],
+      "channels": ["biz_fb_page", "biz_ig_lunaxxfit", "biz_x_automationnorth"],
       "text": {
         "default": "Be honest: how long do you stand around at the gym deciding what to do? If the first ten minutes go to wandering, the plan is the problem, not you. A plan answers three questions before you walk in: what exercise, how many sets and reps, and what's next week. Save this for your next gym day.",
-        "x_daprincessa23": "Wandering isn't a workout.\n\nA plan answers 3 questions before you walk in: what exercise, how many sets/reps, what's next week.\n\nSave this for your next gym day."
+        "biz_x_automationnorth": "Wandering isn't a workout.\n\nA plan answers 3 questions before you walk in: what exercise, how many sets/reps, what's next week.\n\nSave this for your next gym day."
       },
       "media": "graphic: charcoal card, gold headline 'Wandering isn't a workout.'",
       "link": "https://www.sweatcult.shop/products/30-day-gym-reset-guide",
