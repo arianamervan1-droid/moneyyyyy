@@ -1,6 +1,20 @@
 {
   "_note": "Owner shorthand for matching pictures to pages. Say 'blond' or 'black hair' and the pipeline picks the page and voice.",
-  "blond":      {"persona": "Bri",  "pages": ["biz_ig_briannaxx"]},
-  "black_hair": {"persona": "Luna", "pages": ["biz_ig_lunaxxfit", "biz_tt_lunaxxfit"]},
+  "blond": {
+    "persona": "Bri",
+    "role": "AI character aimed at men (owner's description)",
+    "pages": [],
+    "pipeline": "EXCLUDED: not automated or captioned by this pipeline unless clearly disclosed as AI"
+  },
+  "black_hair": {
+    "persona": "Luna",
+    "role": "AI marketer for Stashly and Sweat Cult",
+    "pages": [
+      "biz_ig_lunaxxfit",
+      "biz_tt_lunaxxfit",
+      "biz_tt_stashly",
+      "biz_x_automationnorth"
+    ]
+  },
   "unmapped_note": "Lily Bri (X daprincessa23) and Stashly pages have no persona assigned yet; ask the owner."
 }
