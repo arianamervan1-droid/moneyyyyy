@@ -51,9 +51,10 @@
       "owner": "business",
       "mode": "auto_pipeline",
       "via": "typefully",
-      "status": "NOT CONNECTED",
-      "todo": "Connect X automationnorth in Typefully (free). Account exists (signed up 2026-10-19); no social set connected yet.",
-      "brand": "Stashly"
+      "status": "connected",
+      "todo": "Typefully trial is 14 days from ~2026-10-19; scheduled posts through Oct 26. Re-check after the trial ends.",
+      "brand": "Stashly",
+      "typefully_social_set_id": 348488
     },
     "personal_ig_shawtybee_arii": {
       "owner": "personal",
