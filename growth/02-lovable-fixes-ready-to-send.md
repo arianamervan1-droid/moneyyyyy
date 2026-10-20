@@ -1,6 +1,6 @@
 # Lovable fixes — ready to send when credits return
 
-Status: NOT applied. Lovable workspace was out of credits when this was attempted (2026-10-19). Price and discount changes are deliberately excluded until the owner decides.
+Status: APPLIED TO PREVIEW ONLY on 2026-10-20 (Lovable commit 23982c29, 4.2 credits). NOT published; owner must review the preview and publish. Verified by Lovable in preview: build passes, 6/6 discount tests pass, no 390px overflow, no prices/discounts/checkout changed, copy renders. Not verified: banner on the real sweatcult.shop host. Finding: the lead popup is not mounted anywhere in the app, so it was not the cause of live interruptions; the new rules apply if it is re-enabled.
 
 Send this as one message to the "Sweat Cult Storefront" project:
 
