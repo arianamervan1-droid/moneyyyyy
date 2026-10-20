@@ -50,9 +50,9 @@
       "handle": "automationnorth",
       "owner": "business",
       "mode": "auto_pipeline",
-      "via": "chat33",
+      "via": "typefully",
       "status": "NOT CONNECTED",
-      "todo": "Stashly's X. Connect in Chat33 (chat33.io/channels) or Metricool",
+      "todo": "Connect X automationnorth in Typefully (free). Account exists (signed up 2026-10-19); no social set connected yet.",
       "brand": "Stashly"
     },
     "personal_ig_shawtybee_arii": {
@@ -118,11 +118,17 @@
       "via": "chat33",
       "account_id": "cmvev1eqn00011nro9kp22qqb",
       "status": "connected",
-      "note": "0 posts published as of 2026-10-20"
+      "note": "Chat33 is dedicated to this one X account (owner decision 2026-10-20). Fanvue MCP connected as @that_lily."
     }
   },
   "websites": {
     "sweatcult.shop": "Sweat Cult storefront (Lovable + Stripe, digital products). Live funnel data via Lovable DB.",
     "stashly.org": "Stashly: social marketplace (Instagram-style feed; physical/digital goods and services; creator storefronts, live selling, tiered seller commissions, influencer attribution, lead capture). Lovable project 'Stashly', published, last edited 2026-10-10."
+  },
+  "fanvue": {
+    "handle": "that_lily",
+    "via": "fanvue_mcp",
+    "isAiCreator": false,
+    "note": "Fanvue profile is flagged isAiCreator=false. If the persona is AI, Fanvue's AI-creator designation must match before promoting it."
   }
 }
