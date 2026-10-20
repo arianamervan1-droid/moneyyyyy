@@ -18,7 +18,7 @@
 | X Stashly (automationnorth) | none | Typefully drafts deleted; paste by hand or X API keys |
 | Instagram briannaxx_01 (Bri) | none | not connected; owner's call |
 | Fanvue @that_lily | Fanvue MCP | connected (analytics); AI-creator flag currently "no" |
-Websites: sweatcult.shop (Lovable + Stripe; 0 purchases from ~1.7k visits; price $27 on page vs $21.60 at checkout), stashly.org (social marketplace; Lovable project).
+Websites: sweatcult.shop (Lovable + Stripe; 0 purchases from ~1.7k visits; page price $27; checkout price unconfirmed ($21.60 is only true once a SWEAT20 code exists)), stashly.org (social marketplace; Lovable project).
 
 ## What I built (repo: automation/, branch claude/gym-starter-pilot-brief)
 channels.json, personas.json, queue.json, validate_queue.py, RUNBOOK.md, BUSINESS-ANALYSIS.md, BRI-PIPELINE.md, LUNA-PLAN.md, stashly-x-posts.md, and .mcp.json (Twitter MCP, reads keys from environment variables).

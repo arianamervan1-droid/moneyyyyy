@@ -20,7 +20,7 @@ Blocked until you act: attach Metricool + Chat33 to the routine on claude.ai.
 | Fanvue Lily | https://www.fanvue.com/that_lily | Fanvue MCP | 20+ posts already scheduled (Oct 23 - Nov 11); AI-creator flag is off |
 
 ## Websites
-- https://www.sweatcult.shop : Sweat Cult storefront. 0 purchases from ~1.7k visits; price page $27 vs checkout $21.60. Test a purchase first.
+- https://www.sweatcult.shop : Sweat Cult storefront. 0 purchases from ~1.7k visits; page price $27; checkout price unconfirmed ($21.60 is only true once a SWEAT20 code exists). Test a purchase first.
 - https://www.stashly.org : Stashly social marketplace (Lovable project).
 
 ## PERSONAL accounts (separate pipeline, not touched by the daily routine)

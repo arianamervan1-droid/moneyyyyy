@@ -22,7 +22,7 @@ Goal: one queue, many channels, every post tagged so we can see which ones make 
 
 ## Auto-publish guardrails (the run must obey all of these)
 - Only channels with `mode: auto_pipeline` and `status: connected`; `validate_queue.py` must pass first.
-- Skip any post that mentions a price until the owner confirms it (product page says $27, checkout charges $21.60) and the checkout is tested.
+- Skip any post that mentions a price until the owner confirms it (product page says $27; checkout price is unconfirmed, and $21.60 is only true once a SWEAT20 code exists) and the checkout is tested.
 - Instagram/TikTok need real media; if none exists, skip that channel, do not post text-only.
 - AI-influencer pages (lunaxxfit, briannaxx_01, Lily Bri): do NOT set the platform AI label (`isAiGenerated` / `isAigc`) until the owner says when and how (owner decision 2026-10-20, tied to the brand story). Until then, never claim credentials, real results or testimonials, and publish only text and graphics on these pages, not AI-generated people or video. The owner will lift that when giving the labeling go-ahead.
 - Max 1-2 posts per channel per day. Pause everything and tell the owner if a post fails twice.
