@@ -1,0 +1,134 @@
+{
+  "_note": "Source of truth for where posts can go. 'status' = verified live on 2026-10-20. 'mode': auto_pipeline = this repo drafts/schedules; together = personal, only posted in the daily sit-down with the owner (never by the pipeline).",
+  "mode": "auto",
+  "channels": {
+    "biz_ig_lunaxxfit": {
+      "handle": "lunaxxfit_",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "metricool",
+      "brand_id": 6596743,
+      "status": "connected"
+    },
+    "biz_ig_briannaxx": {
+      "handle": "briannaxx_01",
+      "owner": "business",
+      "mode": "off",
+      "via": "metricool",
+      "status": "NOT CONNECTED",
+      "todo": "PAUSED by owner decision 2026-10-20. Pipeline plan is in BRI-PIPELINE.md. Posted manually by the owner; automation resumes only with the AI label on.",
+      "ai_label": "required"
+    },
+    "biz_fb_page": {
+      "handle": "Facebook page 61592065590420",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "metricool",
+      "brand_id": 6596743,
+      "status": "connected",
+      "todo": "Metricool lists page id 1140750909130670; confirm it is the same page"
+    },
+    "biz_tt_stashly": {
+      "handle": "stashly_1",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "metricool",
+      "brand_id": 6596743,
+      "status": "connected",
+      "todo": "Metricool returned no TikTok analytics; check it has data"
+    },
+    "biz_tt_lunaxxfit": {
+      "handle": "lunaxxfit",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "higgsfield",
+      "connector_id": "041f3099-cd51-4ff1-87f1-082a54315111",
+      "status": "connected",
+      "todo": "Higgsfield connector is named tiktok-luna; confirm it is @lunaxxfit"
+    },
+    "biz_x_automationnorth": {
+      "handle": "automationnorth",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "typefully",
+      "status": "NOT CONNECTED",
+      "todo": "Connect X automationnorth in Typefully (free). Account exists (signed up 2026-10-19); no social set connected yet.",
+      "brand": "Stashly"
+    },
+    "personal_ig_shawtybee_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_ig_thatz_arii_": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_ig_puxmpwit_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_fb_ariana.mervan": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_fb_profile_61593912144674": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_x_shawtybee_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_tt_shawtybee_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_tt_thatz_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_tt_puxmpwit_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_youtube_shawtybee_arii": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "personal_snapchat": {
+      "owner": "personal",
+      "mode": "together",
+      "status": "not connected"
+    },
+    "biz_x_lilybri": {
+      "handle": "daprincessa23",
+      "brand": "Lily Bri",
+      "owner": "business",
+      "mode": "auto_pipeline",
+      "via": "chat33",
+      "account_id": "cmvev1eqn00011nro9kp22qqb",
+      "status": "connected",
+      "note": "Chat33 is dedicated to this one X account (owner decision 2026-10-20). Fanvue MCP connected as @that_lily."
+    }
+  },
+  "websites": {
+    "sweatcult.shop": "Sweat Cult storefront (Lovable + Stripe, digital products). Live funnel data via Lovable DB.",
+    "stashly.org": "Stashly: social marketplace (Instagram-style feed; physical/digital goods and services; creator storefronts, live selling, tiered seller commissions, influencer attribution, lead capture). Lovable project 'Stashly', published, last edited 2026-10-10."
+  },
+  "fanvue": {
+    "handle": "that_lily",
+    "via": "fanvue_mcp",
+    "isAiCreator": false,
+    "note": "Fanvue profile is flagged isAiCreator=false. If the persona is AI, Fanvue's AI-creator designation must match before promoting it."
+  }
+}
