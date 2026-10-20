@@ -15,6 +15,34 @@
       "utm_content": "d02_education",
       "when": "2026-10-21T10:00:00-07:00",
       "metricool_post_id": 400629589
+    },
+    {
+      "id": "d10_education",
+      "status": "scheduled",
+      "channels": [
+        "biz_fb_page"
+      ],
+      "text": {
+        "default": "When do you add weight? A simple rule: if you can do all your sets at the top of the rep range with good form, and it feels like you had about two reps left, add the smallest increase next time. If form breaks, drop back. That's progression. Save this."
+      },
+      "media": null,
+      "link": null,
+      "when": "2026-10-22T10:00:00-07:00",
+      "metricool_post_id": 400678192
+    },
+    {
+      "id": "warmup_education",
+      "status": "scheduled",
+      "channels": [
+        "biz_fb_page"
+      ],
+      "text": {
+        "default": "Skipping your warm-up? Five minutes is enough: a little light cardio to get warm, then one or two lighter sets of your first exercise before the heavy ones. You move better, the first working set feels easier, and you walk into the rest of the session ready instead of rushed. Save this for your next gym day."
+      },
+      "media": null,
+      "link": null,
+      "when": "2026-10-24T10:00:00-07:00",
+      "metricool_post_id": 400678208
     }
   ]
 }
