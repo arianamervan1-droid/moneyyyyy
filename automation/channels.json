@@ -1,6 +1,6 @@
 {
   "_note": "Source of truth for where posts can go. 'status' = verified live on 2026-10-20. 'mode': auto_pipeline = this repo drafts/schedules; together = personal, only posted in the daily sit-down with the owner (never by the pipeline).",
-  "mode": "draft_for_approval",
+  "mode": "auto",
   "channels": {
     "biz_ig_lunaxxfit": {
       "handle": "lunaxxfit_",
