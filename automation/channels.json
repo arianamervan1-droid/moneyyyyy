@@ -1,0 +1,13 @@
+{
+  "_note": "Source of truth for where posts can go. 'status' reflects what was verified live on 2026-10-20.",
+  "channels": {
+    "business_instagram":  {"handle": "lunaxxfit_",        "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
+    "business_facebook":   {"handle": "Sweat Cult page (1140750909130670)", "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
+    "business_tiktok":     {"handle": "stashly_1",         "via": "metricool", "brand_id": 6596743, "status": "connected", "owner": "business"},
+    "tiktok_luna":         {"handle": "tiktok-luna",       "via": "higgsfield", "connector_id": "041f3099-cd51-4ff1-87f1-082a54315111", "status": "connected", "owner": "UNASSIGNED"},
+    "x_daprincessa23":     {"handle": "@daprincessa23",    "via": "chat33", "account_id": "cmvev1eqn00011nro9kp22qqb", "status": "connected", "owner": "UNASSIGNED"},
+    "personal_accounts":   {"status": "NOT CONNECTED", "todo": "Connect personal IG/FB/TikTok/LinkedIn in Metricool as extra brands, or at https://chat33.io/channels"},
+    "content_pages":       {"status": "NOT CONNECTED", "todo": "Connect each content page as its own Metricool brand so voice and links stay separate"}
+  },
+  "mode": "draft_for_approval"
+}
